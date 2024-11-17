@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "danfoss-ally-scheduler"
+version = "0.1.0"
+description = ""
+authors = ["Stanisław Jankowski <stach.jankowski@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+paho-mqtt = "^2.1.0"
+pyyaml = "^6.0.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+setuptools = "^75.5.0"
+pytest-cov = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
